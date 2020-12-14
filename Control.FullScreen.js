@@ -1,6 +1,6 @@
-(function () {
+import L from "leaflet";
 
-L.Control.FullScreen = L.Control.extend({
+export default L.Control.FullScreen = L.Control.extend({
 	options: {
 		position: 'topleft',
 		title: 'Full Screen',
@@ -225,4 +225,3 @@ source : http://johndyer.name/native-fullscreen-javascript-api-plus-jquery-plugi
 
 	// export api
 	window.fullScreenApi = fullScreenApi;
-})();
